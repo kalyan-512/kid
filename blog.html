@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog | Kidhood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fredoka+One&family=Schoolbell&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tokens.override.css" />
+    <script src="mobile-menu.js" defer></script>
+    
+    <!-- Interakt Chat Widget -->
+    <script>
+      (function(w,d,s,c,r,a,m){
+        w['KiwiObject']=r;
+        w[r]=w[r] || function () {
+          (w[r].q=w[r].q||[]).push(arguments)};
+        w[r].l=1*new Date();
+          a=d.createElement(s);
+          m=d.getElementsByTagName(s)[0];
+        a.async=1;
+        a.src=c;
+        m.parentNode.insertBefore(a,m)
+      })(window,document,'script',"https://app.interakt.ai/kiwi-sdk/kiwi-sdk-17-prod-min.js?v="+ new Date().getTime(),'kiwi');
+      window.addEventListener("load",function () {
+        kiwi.init('', 'APg0xCoxjKJrflCFTWzcd8tOivjzmecO', {});
+      });
+    </script>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__social"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></div>
+        <div class="topbar__info"><span class="topbar__hours">Mon to Sat: 8.00 am - 7.00 pm</span><span class="topbar__divider">|</span><a class="topbar__email" href="mailto:hello@kidhoodeducation.com">hello@kidhoodeducation.com</a></div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__brand"><img src="assets/source/KIdhood Preschool Logo.png" alt="Kidhood" class="logo"/></div>
+        <nav class="nav">
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link" href="about.html">About</a>
+          <a class="nav__link" href="programs.html">Programs</a>
+          <a class="nav__link" href="preschool.html">Preschool</a>
+          <a class="nav__link" href="admission.html">Admission</a>
+          <a class="nav__link" href="franchise.html">Franchise</a>
+          <a class="nav__link nav__link--active" href="blog.html">Blog</a>
+          <a class="nav__link" href="contact.html">Contact</a>
+        </nav>
+        <div class="header__cta">
+          <div class="header__phone">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <span class="phone__label">Call to Questions</span>
+              <a class="phone__number" href="tel:9177105666">9177105666</a>
+            </div>
+          </div>
+          <a class="btn btn--primary" href="#visit">Book a Visit</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" style="padding:80px 0 10px;background:#5f6468;color:#fff;">
+        <div class="container center"><h1 style="font-family:var(--font-display);font-size:40px;margin-bottom:8px;">Our Blogs</h1><div style="opacity:0.7;">Home / Blog</div></div>
+      </section>
+
+      <section class="section">
+        <div class="container" style="max-width:900px;margin:40px auto;">
+          <!-- Blog item 1 -->
+          <article style="margin-bottom:48px;">
+            <div style="border-radius:12px;overflow:hidden;"><img src="assets/source/two-toddlers-playing-with-balls-xylophone-sitting-floor-kindergarten.jpg" alt="Blog 1" style="width:100%;height:auto;"/></div>
+            <div style="display:flex;align-items:center;gap:12px;margin-top:12px;">
+              <span class="chip chip--red">Kindergarten</span>
+              <time style="color:var(--body);">26 Mar, 2023</time>
+            </div>
+            <h3 style="margin-top:8px;">The Power of Play: More Than Just Fun and Games</h3>
+            <p style="color:var(--body);">Discover how play-based learning helps your child develop critical problem-solving skills, creativity, and social understanding.</p>
+          </article>
+
+          <!-- Blog item 2 -->
+          <article style="margin-bottom:48px;">
+            <div style="border-radius:12px;overflow:hidden;"><img src="assets/source/two-toddlers-playing-with-balls-xylophone-sitting-floor-kindergarten.jpg" alt="Blog 2" style="width:100%;height:auto;"/></div>
+            <div style="display:flex;align-items:center;gap:12px;margin-top:12px;">
+              <span class="chip chip--red">Kindergarten</span>
+              <time style="color:var(--body);">26 Mar, 2023</time>
+            </div>
+            <h3 style="margin-top:8px;">Taming the Tantrum: Understanding Your Preschooler's Big Feelings</h3>
+            <p style="color:var(--body);">Learn why tantrums happen and find simple, positive strategies to help your little one navigate their emotions effectively.</p>
+          </article>
+
+          <!-- Blog item 3 -->
+          <article style="margin-bottom:48px;">
+            <div style="border-radius:12px;overflow:hidden;"><img src="assets/source/A (11).jpg" alt="Blog 3" style="width:100%;height:auto;"/></div>
+            <div style="display:flex;align-items:center;gap:12px;margin-top:12px;">
+              <span class="chip chip--red">Kindergarten</span>
+              <time style="color:var(--body);">26 Mar, 2023</time>
+            </div>
+            <h3 style="margin-top:8px;">From "Mine!" to "Let's Share": Nurturing Social Skills</h3>
+            <p style="color:var(--body);">Gentle tips and playful ideas to teach your preschooler about sharing, taking turns, and making friends.</p>
+          </article>
+
+          <!-- Pagination (static) -->
+          <div style="display:flex;gap:8px;align-items:center;justify-content:center;margin-top:24px;">
+            <button class="btn btn--primary" style="background:#fff;color:#f25334;border-radius:6px;padding:6px 10px;">1</button>
+            <button class="btn" style="background:#fff;color:#7e8185;border-radius:6px;padding:6px 10px;">2</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="wave-divider wave-divider--footer">
+        <svg viewBox="0 0 1920 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 60C240 20 480 20 720 60C960 100 1200 100 1440 60C1680 20 1920 20 1920 60V120H0V60Z" fill="#0B2038"/>
+        </svg>
+      </div>
+
+      <footer style="background:var(--deep-blue);color:#fff;padding:48px 0;">
+        <div class="container" style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+          <div style="max-width:420px;">
+            <img src="assets/source/KIdhood Preschool Logo.png" alt="Kidhood" style="height:56px;margin-bottom:12px;" />
+            <address style="font-style:normal;color:rgba(255,255,255,0.9);">1-2-298, Amarnath Kunj, Gagan Mahal Rd, Hyderabad, Telangana 500029</address>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;"> 
+            <div>
+              <h4 style="margin-bottom:8px;">Links</h4>
+            </div>
+            <div>
+              <h4 style="margin-bottom:8px;">Explore</h4>
+            </div>
+            <div>
+              <h4 style="margin-bottom:8px;">Contact</h4>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </body>
+</html>

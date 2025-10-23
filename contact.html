@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us - Kidhood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fredoka+One&family=Schoolbell&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tokens.override.css" />
+    <script src="dev-tools.js" defer></script>
+    <script src="mobile-menu.js" defer></script>
+    
+    <!-- Interakt Chat Widget -->
+    <script>
+      (function(w,d,s,c,r,a,m){
+        w['KiwiObject']=r;
+        w[r]=w[r] || function () {
+          (w[r].q=w[r].q||[]).push(arguments)};
+        w[r].l=1*new Date();
+          a=d.createElement(s);
+          m=d.getElementsByTagName(s)[0];
+        a.async=1;
+        a.src=c;
+        m.parentNode.insertBefore(a,m)
+      })(window,document,'script',"https://app.interakt.ai/kiwi-sdk/kiwi-sdk-17-prod-min.js?v="+ new Date().getTime(),'kiwi');
+      window.addEventListener("load",function () {
+        kiwi.init('', 'APg0xCoxjKJrflCFTWzcd8tOivjzmecO', {});
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Top bar -->
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__social">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="topbar__info">
+          <span class="topbar__hours">Mon to Sat: 8.00 am - 7.00 pm</span>
+          <span class="topbar__divider">|</span>
+          <a href="mailto:hello@kidhoodeducation.com" class="topbar__email">hello@kidhoodeducation.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__brand">
+          <img src="assets/source/KIdhood Preschool Logo.png" alt="Kidhood" class="logo" />
+        </div>
+        <nav class="nav">
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link" href="about.html">About</a>
+          <a class="nav__link" href="programs.html">Programs</a>
+          <a class="nav__link" href="preschool.html">Preschool</a>
+          <a class="nav__link" href="admission.html">Admission</a>
+          <a class="nav__link" href="franchise.html">Franchise</a>
+          <a class="nav__link" href="blog.html">Blog</a>
+          <a class="nav__link nav__link--active" href="contact.html">Contact</a>
+        </nav>
+        <div class="header__cta">
+          <div class="header__phone">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <span class="phone__label">Call to Questions</span>
+              <a class="phone__number" href="tel:9177105666">9177105666</a>
+            </div>
+          </div>
+          <a class="btn btn--primary" href="#visit">Book a Visit</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero banner -->
+    <section class="page-hero">
+      <div class="page-hero__bg">
+        <div class="container">
+          <h1 class="page-hero__title">Contact</h1>
+          <p class="page-hero__breadcrumb">Home / Contact</p>
+        </div>
+      </div>
+      <div class="wave-divider wave-divider--hero">
+        <svg viewBox="0 0 1920 43" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 21.5C480 35.83 960 35.83 1440 21.5C1680 14.33 1920 14.33 1920 21.5V0H0V21.5Z" fill="#0B2038"/>
+        </svg>
+      </div>
+    </section>
+
+    <main>
+      <!-- Contact Form Section -->
+      <section class="contact-form-section section">
+        <div class="container">
+          <div class="contact-form-header center">
+            <p class="eyebrow eyebrow--red">Contact with Us</p>
+            <h2 class="h2">Feel Free to Write us Anytime</h2>
+          </div>
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" class="form-input" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-input" placeholder="Email Address" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="tel" class="form-input" placeholder="Phone" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-input" placeholder="Subject" />
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-textarea" rows="6" placeholder="Write a Message"></textarea>
+            </div>
+            <div class="form-submit center">
+              <button class="btn btn--primary" type="submit">Get In Touch</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Contact Cards -->
+      <section class="contact-info-section section">
+        <div class="container">
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-card__icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-card__content">
+                <h4 class="contact-card__label">Call Anytime</h4>
+                <p class="contact-card__value">91 9177 105 666</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card__icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-card__content">
+                <h4 class="contact-card__label">Send Email</h4>
+                <p class="contact-card__value">hello@kidhoodeducation.com</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card__icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-card__content">
+                <h4 class="contact-card__label">Visit Us</h4>
+                <p class="contact-card__value">Domalguda, Hyderabad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map-section">
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.1819583076844!2d78.47687931487686!3d17.39883098806937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9773e3ff7b91%3A0x30c18da1c1c7e6c7!2sDomalguda%2C%20Himayath%20Nagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="assets/KIdhood Preschool Logo  2.png" alt="Kidhood" class="footer__logo" />
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h4 class="footer__title">Get in Touch</h4>
+            <address class="footer__address">
+              1-2-298, Amarnath Kunj,<br />
+              Street Number 7, Gagan Mahal Rd,<br />
+              Domalguda, Himayatnagar,<br />
+              Hyderabad, Telangana 500029
+            </address>
+            <div class="footer__contacts">
+              <p><i class="fas fa-phone"></i> 91 9177 105 666</p>
+              <p><i class="fas fa-envelope"></i> hello@kidhoodeducation.com</p>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__title">Links</h4>
+            <ul class="footer__list">
+              <li><a href="index.html#admission">Admissions</a></li>
+              <li><a href="programs.html">Programs</a></li>
+              <li><a href="#">Outdoor Games</a></li>
+              <li><a href="#">Online Classes</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__title">Explore</h4>
+            <ul class="footer__list">
+              <li><a href="about.html">About</a></li>
+              <li><a href="index.html#blog">Our News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <p class="copy">© All copyright 2023 Kidhood</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
