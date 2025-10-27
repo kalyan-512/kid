@@ -16,6 +16,11 @@
     { "source": "/", "destination": "/index.html" },
     { "source": "/about", "destination": "/about.html" },
     { "source": "/programs", "destination": "/programs.html" },
-    { "source": "/contact", "destination": "/contact.html" }
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/gachibowli", "destination": "/preschool-gachibowli.html" },
+    { "source": "/nallagandla", "destination": "/preschool-nallagandla.html" },
+    { "source": "/attapur", "destination": "/preschool-attapur.html" },
+    { "source": "/begumpet", "destination": "/preschool-begumpet.html" },
+    { "source": "/ameerpet", "destination": "/preschool-ameerpet.html" }
   ]
 }
