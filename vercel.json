@@ -3,6 +3,9 @@
   "outputDirectory": "kid",
   "cleanUrls": true,
   "trailingSlash": false,
+  "github": {
+    "silent": true
+  },
   "headers": [
     {
       "source": "/(.*)\\.(png|jpg|jpeg|gif|svg|webp|css)",
