@@ -1,16 +1,22 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    { "source": "/preschool.html", "destination": "/preschools.html" }
-  ],
+  "outputDirectory": "kid",
   "rewrites": [
-    { "source": "/gachibowli", "destination": "/kid/preschool-gachibowli.html" },
-    { "source": "/nallagandla", "destination": "/kid/preschool-nallagandla.html" },
-    { "source": "/attapur", "destination": "/kid/preschool-attapur.html" },
-    { "source": "/begumpet", "destination": "/kid/preschool-begumpet.html" },
-    { "source": "/ameerpet", "destination": "/kid/preschool-ameerpet.html" },
-    { "source": "/privacy-policy", "destination": "/kid/privacy-policy.html" },
-    { "source": "/terms-conditions", "destination": "/kid/terms-conditions.html" }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/programs", "destination": "/programs.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/preschools", "destination": "/preschools.html" },
+    { "source": "/admission", "destination": "/admission.html" },
+    { "source": "/franchise", "destination": "/franchise.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/gachibowli", "destination": "/preschool-gachibowli.html" },
+    { "source": "/nallagandla", "destination": "/preschool-nallagandla.html" },
+    { "source": "/attapur", "destination": "/preschool-attapur.html" },
+    { "source": "/begumpet", "destination": "/preschool-begumpet.html" },
+    { "source": "/ameerpet", "destination": "/preschool-ameerpet.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/terms-conditions", "destination": "/terms-conditions.html" }
   ]
 }
