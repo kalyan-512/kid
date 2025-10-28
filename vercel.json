@@ -1,22 +1,13 @@
 {
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": "kid",
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputDirectory": "kid",
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/programs", "destination": "/programs.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/preschools", "destination": "/preschools.html" },
-    { "source": "/admission", "destination": "/admission.html" },
-    { "source": "/franchise", "destination": "/franchise.html" },
-    { "source": "/blog", "destination": "/blog.html" },
-    { "source": "/gachibowli", "destination": "/preschool-gachibowli.html" },
-    { "source": "/nallagandla", "destination": "/preschool-nallagandla.html" },
-    { "source": "/attapur", "destination": "/preschool-attapur.html" },
-    { "source": "/begumpet", "destination": "/preschool-begumpet.html" },
-    { "source": "/ameerpet", "destination": "/preschool-ameerpet.html" },
-    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
-    { "source": "/terms-conditions", "destination": "/terms-conditions.html" }
+  "redirects": [
+    { "source": "/gachibowli", "destination": "/preschool-gachibowli.html", "permanent": false },
+    { "source": "/nallagandla", "destination": "/preschool-nallagandla.html", "permanent": false },
+    { "source": "/attapur", "destination": "/preschool-attapur.html", "permanent": false },
+    { "source": "/begumpet", "destination": "/preschool-begumpet.html", "permanent": false },
+    { "source": "/ameerpet", "destination": "/preschool-ameerpet.html", "permanent": false }
   ]
 }
