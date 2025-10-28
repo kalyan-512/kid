@@ -319,6 +319,54 @@ address {
   opacity: 1;
 }
 
+/* Mobile CTA Bar - Fixed at bottom on mobile */
+.mobile-cta-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  padding: 12px 16px;
+  z-index: 997;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .mobile-cta-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mobile-cta-bar a {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .mobile-cta-bar .btn {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  
+  .mobile-cta-bar .btn--call {
+    background: var(--yellow);
+    color: var(--deep-blue);
+  }
+  
+  .mobile-cta-bar .btn--call:hover {
+    background: #ffc107;
+  }
+  
+  /* Add padding to body to prevent content from being hidden behind fixed CTA */
+  body {
+    padding-bottom: 70px;
+  }
+}
+
 .nav {
   display: flex;
   gap: 32px;
@@ -1911,7 +1959,7 @@ address {
   }
   
   .section {
-    padding: 56px 0;
+    padding: 48px 0;
   }
   
   /* Topbar */
@@ -1928,6 +1976,11 @@ address {
   .header__brand img,
   .logo {
     height: 60px;
+  }
+  
+  /* Hide header CTA on mobile */
+  .header__cta {
+    display: none;
   }
   
   .mobile-menu-toggle {
@@ -1989,16 +2042,22 @@ address {
   
   /* Hero */
   .hero {
-    padding: 48px 0 64px;
+    padding: 32px 0 40px;
+  }
+  
+  .hero__inner {
+    gap: 32px;
   }
   
   .hero__title {
     font-size: 36px;
     line-height: 44px;
+    margin: 12px 0 16px;
   }
   
   .hero__text {
     font-size: 15px;
+    margin-bottom: 24px;
   }
   
   .hero__actions {
@@ -2011,10 +2070,56 @@ address {
     justify-content: center;
   }
   
+  .hero__media {
+    height: 350px;
+  }
+  
+  .hero__circle-bg {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .hero__illustration {
+    width: 280px;
+  }
+  
   /* About */
+  .about {
+    padding: 48px 0;
+  }
+  
   .about__inner {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 32px;
+  }
+  
+  .about__circle-wrapper {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .about__circle-main {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    top: 0;
+  }
+  
+  .about__circle-yellow {
+    width: 120px;
+    height: 120px;
+    top: -20px;
+    right: 20px;
+  }
+  
+  .about__circle-orange {
+    width: 100px;
+    height: 100px;
+    bottom: -20px;
+    right: -10px;
   }
   
   /* Benefits */
@@ -2180,16 +2285,21 @@ address {
   }
   
   /* Header */
-  .header__brand img {
-    max-width: 160px;
+  .header__inner {
+    height: 70px;
+    padding: 12px 0;
   }
   
-  .header__actions .btn {
-    padding: 8px 16px;
-    font-size: 13px;
+  .header__brand img,
+  .logo {
+    height: 50px;
   }
   
   /* Hero */
+  .hero {
+    padding: 32px 0 48px;
+  }
+  
   .hero__title {
     font-size: 28px;
     line-height: 36px;
@@ -2343,8 +2453,18 @@ address {
     line-height: 32px;
   }
   
-  .header__brand img {
-    max-width: 100px;
+  .header__inner {
+    height: 65px;
+  }
+  
+  .header__brand img,
+  .logo {
+    height: 45px;
+  }
+  
+  .mobile-cta-bar .btn {
+    padding: 12px 16px;
+    font-size: 14px;
   }
 }
 
