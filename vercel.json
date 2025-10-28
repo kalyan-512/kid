@@ -9,6 +9,8 @@
     { "source": "/nallagandla", "destination": "/kid/preschool-nallagandla.html" },
     { "source": "/attapur", "destination": "/kid/preschool-attapur.html" },
     { "source": "/begumpet", "destination": "/kid/preschool-begumpet.html" },
-    { "source": "/ameerpet", "destination": "/kid/preschool-ameerpet.html" }
+    { "source": "/ameerpet", "destination": "/kid/preschool-ameerpet.html" },
+    { "source": "/privacy-policy", "destination": "/kid/privacy-policy.html" },
+    { "source": "/terms-conditions", "destination": "/kid/terms-conditions.html" }
   ]
 }
