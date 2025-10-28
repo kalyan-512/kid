@@ -134,6 +134,7 @@ address {
   border: none;
   font-family: var(--font-body);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
 }
 
 .btn:hover {
@@ -260,10 +261,18 @@ address {
   z-index: 100;
 }
 
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 15px 0;
+}
+
 /* Logo Sizing */
 .header__brand img,
 .logo {
-  height: 480px;
+  height: 90px;
   width: auto;
   object-fit: contain;
 }
@@ -310,22 +319,9 @@ address {
   opacity: 1;
 }
 
-.header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 180px;
-  padding: 15px 0;
-}
-
-.logo {
-  height: 180px;
-  width: auto;
-}
-
 .nav {
   display: flex;
-  gap: 40px;
+  gap: 32px;
   align-items: center;
 }
 
@@ -336,6 +332,7 @@ address {
   font-size: 16px;
   transition: color 0.3s ease;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav__link:hover {
@@ -345,6 +342,7 @@ address {
 .nav__link--active {
   color: var(--primary);
 }
+
 .header__cta {
   display: flex;
   align-items: center;
@@ -1923,7 +1921,13 @@ address {
   
   /* Header */
   .header__inner {
-    padding: 20px 0;
+    padding: 16px 0;
+    height: 80px;
+  }
+  
+  .header__brand img,
+  .logo {
+    height: 60px;
   }
   
   .mobile-menu-toggle {
