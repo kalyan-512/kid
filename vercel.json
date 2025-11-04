@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "outputDirectory": "kid",
   "cleanUrls": true,
   "trailingSlash": false,
