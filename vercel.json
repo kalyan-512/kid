@@ -4,6 +4,15 @@
   "trailingSlash": false,
   "headers": [
     {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/sitemap.xml",
       "headers": [
         {
@@ -27,10 +36,10 @@
     }
   ],
   "redirects": [
-    { "source": "/gachibowli", "destination": "/preschool-gachibowli.html", "permanent": false },
-    { "source": "/nallagandla", "destination": "/preschool-nallagandla.html", "permanent": false },
-    { "source": "/attapur", "destination": "/preschool-attapur.html", "permanent": false },
-    { "source": "/begumpet", "destination": "/preschool-begumpet.html", "permanent": false },
-    { "source": "/ameerpet", "destination": "/preschool-ameerpet.html", "permanent": false }
+    { "source": "/gachibowli", "destination": "/preschool-gachibowli", "permanent": false },
+    { "source": "/nallagandla", "destination": "/preschool-nallagandla", "permanent": false },
+    { "source": "/attapur", "destination": "/preschool-attapur", "permanent": false },
+    { "source": "/begumpet", "destination": "/preschool-begumpet", "permanent": false },
+    { "source": "/ameerpet", "destination": "/preschool-ameerpet", "permanent": false }
   ]
 }
