@@ -46,10 +46,25 @@
     }
   ],
   "redirects": [
-    { "source": "/gachibowli", "destination": "/preschool-gachibowli", "permanent": false },
-    { "source": "/nallagandla", "destination": "/preschool-nallagandla", "permanent": false },
-    { "source": "/attapur", "destination": "/preschool-attapur", "permanent": false },
-    { "source": "/begumpet", "destination": "/preschool-begumpet", "permanent": false },
-    { "source": "/ameerpet", "destination": "/preschool-ameerpet", "permanent": false }
+    { "source": "/gachibowli", "destination": "/preschool-gachibowli", "permanent": true },
+    { "source": "/nallagandla", "destination": "/preschool-nallagandla", "permanent": true },
+    { "source": "/attapur", "destination": "/preschool-attapur", "permanent": true },
+    { "source": "/begumpet", "destination": "/preschool-begumpet", "permanent": true },
+    { "source": "/ameerpet", "destination": "/preschool-ameerpet", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/about.html", "destination": "/about", "permanent": true },
+    { "source": "/programs.html", "destination": "/programs", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/admission.html", "destination": "/admission", "permanent": true },
+    { "source": "/blog.html", "destination": "/blog", "permanent": true },
+    { "source": "/franchise.html", "destination": "/franchise", "permanent": true },
+    { "source": "/preschools.html", "destination": "/preschools", "permanent": true },
+    { "source": "/privacy-policy.html", "destination": "/privacy-policy", "permanent": true },
+    { "source": "/terms-conditions.html", "destination": "/terms-conditions", "permanent": true },
+    { "source": "/preschool-gachibowli.html", "destination": "/preschool-gachibowli", "permanent": true },
+    { "source": "/preschool-nallagandla.html", "destination": "/preschool-nallagandla", "permanent": true },
+    { "source": "/preschool-attapur.html", "destination": "/preschool-attapur", "permanent": true },
+    { "source": "/preschool-begumpet.html", "destination": "/preschool-begumpet", "permanent": true },
+    { "source": "/preschool-ameerpet.html", "destination": "/preschool-ameerpet", "permanent": true }
   ]
 }
