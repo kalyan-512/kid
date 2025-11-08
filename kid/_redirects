@@ -1,0 +1,23 @@
+# Redirect old .html URLs to clean URLs
+/index.html                     /                               301
+/about.html                     /about                          301
+/programs.html                  /programs                       301
+/contact.html                   /contact                        301
+/admission.html                 /admission                      301
+/blog.html                      /blog                           301
+/franchise.html                 /franchise                      301
+/preschools.html                /preschools                     301
+/privacy-policy.html            /privacy-policy                 301
+/terms-conditions.html          /terms-conditions               301
+/preschool-gachibowli.html      /preschool-gachibowli          301
+/preschool-nallagandla.html     /preschool-nallagandla         301
+/preschool-attapur.html         /preschool-attapur             301
+/preschool-begumpet.html        /preschool-begumpet            301
+/preschool-ameerpet.html        /preschool-ameerpet            301
+
+# Redirect short branch URLs to full URLs
+/gachibowli                     /preschool-gachibowli          301
+/nallagandla                    /preschool-nallagandla         301
+/attapur                        /preschool-attapur             301
+/begumpet                       /preschool-begumpet            301
+/ameerpet                       /preschool-ameerpet            301
